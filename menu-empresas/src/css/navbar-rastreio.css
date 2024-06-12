@@ -1,0 +1,61 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121530;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.icon-container {
+    margin-bottom: 30px;
+}
+
+.icon-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #4e4e61;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #616175;
+}
+
+.button span {
+    display: flex;
+    align-items: center;
+}
+
+.button img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
